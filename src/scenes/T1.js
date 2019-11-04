@@ -33,6 +33,8 @@ export default class T1 extends Phaser.Scene {
         this.knife = this.add.image(this.width / 2, this.height / 5 * 4, 'knife')
         this.target = this.add.image(this.width / 2, 400, 'target')
 
+        this.target.depth = 1
+
         this.input.on('pointerdown', this.throwKnife, this)
     }
 

@@ -9,6 +9,7 @@
 <script>
 import Phaser from 'phaser'
 import T1 from '@/scenes/T1'
+import T2 from '@/scenes/T2'
 
 export default {
     name: 'HelloWorld',
